@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: #8cf6ca;
+    padding-left: 11%;
+    padding-right: 8%;
+    position: relative;
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 15px;
+    border-bottom: 1px solid #ccefff;
+}
+.top-nav ul li {
+     list-style: none;
+     display: inline-block;
+     margin-right: 30px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.top-nav ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 15px;
+}
+.top-nav button{
+   background: #2CFFAF;
+   color: #ffffff;
+   border: 0;
+   outline: 0;
+   border-radius: 30px;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+.body{
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.refcontainer{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95vh;
+    margin: 0 auto;
+    display: flex;
+}
+.refcontainer .essential{
+    height: 75vh;
+    width: 50%;
+    margin: 2px;
+    background-color: #ffffff;
+    padding:20px;
+    margin: 20px;
+    padding:20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.essential a{
+    color: #8cf6ca;
+    font-size: 25px;
+}
+.refcontainer .watercycle{
+    height: 75vh;
+    width: 50%;
+    margin: 2px;
+    background-color: #ffffff;
+    padding:20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 20px;
+}
+.watercycle a{
+    color: #8cf6ca;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    color: #006511;
+}

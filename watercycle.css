@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: hsl(192, 75%, 75%);
+    padding-left: 11%;
+    padding-right: 8%;
+    position: relative;
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 15px;
+    border-bottom: 1px solid #ccefff;
+}
+.top-nav ul li {
+     list-style: none;
+     display: inline-block;
+     margin-right: 30px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.top-nav ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 15px;
+}
+.top-nav button{
+   background: #2CFFAF;
+   color: #ffffff;
+   border: 0;
+   outline: 0;
+   border-radius: 30px;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+.container{
+    position: relative;
+    width: 100%;
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+.slides{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #ffffff;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+}.container .slide1{
+    background: url(photo1.png);
+    background-position: center;
+    background-size: 78%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container .slide2{
+    background: #95f1ce url(evaporation.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .slide3{
+    background: #9db6f6 url(condensation.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .slide4{
+    background: #e1b5f9 url(precipitation.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .slide5{
+    background: #f9b5e1 url(sublimation.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .slide6{
+    background: #358131 url(transpiration.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}.container .slide7{
+    background: #44b53e url(runoff.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container .slide8{
+    background: #daf895 url(infiltration.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.slides img{
+    width: 450px;
+}
+.container .slides p{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-width: 700px;
+}
+.container .slides h2{
+    background: #ffffff;
+    color: #111;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30;
+    border-radius: 5px;
+}
+.container .slides p{
+    background: #ffffff;
+    color: #111;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
